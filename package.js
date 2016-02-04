@@ -1,8 +1,8 @@
 Package.describe({
-	name: "differential:event-hooks",
+	name: "shutik:event-hooks",
 	summary: "Provides hooks for various user-triggered events",
-	git: 'https://github.com/Differential/meteor-event-hooks.git',
-	version: '1.5.0'
+	git: 'https://github.com/Shutik/meteor-event-hooks.git',
+	version: '1.5.0a'
 });
 
 var both = ['client', 'server']
