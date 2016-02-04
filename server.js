@@ -35,7 +35,7 @@ Meteor.methods({
         Hooks.onLoggedIn(this.userId);
     },
     eventsOnLoggedOut: function (userId) {
-        // Fire the loggedOut event
+        check(userId, String);
         Hooks.onLoggedOut(userId);
     }
 });
